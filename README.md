@@ -31,13 +31,15 @@ Our team's data model is based on the management of multi-unit residential prope
 ![Amenity Bookings](https://github.com/MakennaClark/Data-Model-Project/blob/main/AmenityBookings.png?raw=true)
 
 
-## Ten Queries (1-6 Complex, 7-10 Simple):
+## Ten Query Descriptions and Justifcations (1-6 Complex, 7-10 Simple):
+# Query 1
 
-1. Lists the name of each property, the number of completed payments received, and the total revenue collected from those payments. Only properties that have collected more than $2,000 in total completed payments are shown. Results are ordered by total revenue in descending order.
+Description: Lists the name of each property, the number of completed payments received, and the total revenue collected from those payments. Only properties that have collected more than $2,000 in total completed payments are included. Results are ordered by total revenue in descending order.
 
 ![Query 1](https://github.com/mgc96398/Data-Model-Project/blob/main/Query%201%20.png?raw=true)
 
-Query 1 allows management to quickly identify the top revenue-generating properties. A property manager overseeing 25 properties needs to know which locations are bringing in the most money so they can allocate maintenance budgets, staffing, and marketing resources accordingly. 
+Justification: This query allows management to quickly identify the top revenue-generating properties. A property manager overseeing a portfolio of 25+ properties needs to know which locations are bringing in the most income so they can allocate maintenance budgets, staffing, and marketing resources accordingly. Properties falling below the $2,000 threshold may warrant further investigation into vacancy rates or payment collection issues.
+
 
 2. Lists all tenants who have never submitted a maintenance request.
 
